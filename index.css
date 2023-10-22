@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 body {
     font-family: Arial, sans-serif;
@@ -69,3 +70,76 @@ main {
 .social-links {
     list-style: none;
 }
+=======
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #ca1cff, #00C6FF); /* Adjust the colors as needed */
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 1rem;
+}
+
+main {
+    padding: 2rem;
+}
+
+.project-button {
+    display: block;
+    width: 200px;
+    height: 50px;
+    margin: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    text-align: center;
+    line-height: 50px;
+    text-decoration: none;
+    border: 2px solid #007BFF;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.project-button:hover {
+    background-color: #0056b3;
+}
+
+.projects {
+    display: none;
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in-out;
+    display: block;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.social-links {
+    list-style: none;
+}
+>>>>>>> 4cf02a956b4d347bd767d6d38ffeac758e7b84c5
